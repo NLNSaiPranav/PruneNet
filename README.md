@@ -16,3 +16,13 @@ highlighting the potential of PruneNet as a practical decision support pipeline 
 ## 🎥 Video Demonstration
 
 [![Watch the Demo](Images/youtube.png)](https://youtu.be/c6rzDiAI3Ic)
+
+# Setup
+
+## Clone Repository
+
+```bash
+git clone https://github.com/NLNSaiPranav/PruneNet.git
+
+cd PruneNet
+```
