@@ -1,8 +1,12 @@
 # 🌳 PruneNet
 
 An end-to-end UAV-based mango tree pruning decision support system using deep learning, pseudo-depth canopy analysis, geospatial localization, and autonomous path planning.
-## Overview
 
+Authors : Nidugondi L N Sai Pranav<sup>1</sup>, Prof. Sandeep Manjanna<sup>1</sup>
+
+<sup>1</sup>Plaksha University, Mohali, India
+
+## Overview
 PruneNet is an end-to-end precision agriculture framework designed for automated mango orchard analysis from UAV imagery.
 
 The framework performs:
