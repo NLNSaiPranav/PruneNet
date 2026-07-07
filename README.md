@@ -19,10 +19,3 @@ highlighting the potential of PruneNet as a practical decision support pipeline 
 
 # Setup
 
-## Clone Repository
-
-```bash
-git clone https://github.com/NLNSaiPranav/PruneNet.git
-
-cd PruneNet
-```
