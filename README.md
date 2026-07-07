@@ -19,3 +19,7 @@ Unlike existing approaches that stop at tree detection, PruneNet generates a com
 ## Pipeline
 
 ![Pipeline](Images/3D.png)
+
+## 🎥 Video Demonstration
+
+[![PruneNet Demo](README_images/demo_thumbnail.png)](https://youtu.be/c6rzDiAI3Ic)
