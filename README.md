@@ -18,4 +18,4 @@ Unlike existing approaches that stop at tree detection, PruneNet generates a com
 
 ## Pipeline
 
-![Pipeline](README_images/3D.pdf)
+![Pipeline](README_images/3D_compressed.pdf)
