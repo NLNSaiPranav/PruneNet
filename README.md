@@ -22,4 +22,4 @@ Unlike existing approaches that stop at tree detection, PruneNet generates a com
 
 ## 🎥 Video Demonstration
 
-![PruneNet Demo](Images/Screenshot-2026-07-07-235935.png)
+![PruneNet Demo](Images/Screenshot 2026-07-07 235935.png)
