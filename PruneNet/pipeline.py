@@ -3,16 +3,54 @@ pipeline.py
 
 Runs the complete PruneNet pipeline.
 
-RGB Images
-    │
-    ▼
-Mask R-CNN
-    │
-    ▼
-IWCP
-    │
-    ▼
+Pipeline Overview
+
+UAV RGB Images
+        │
+        ▼
+Tree Instance Segmentation
+        (Mask R-CNN)
+        │
+        ▼
+Canopy Analysis
+(Intensity-Weighted Canopy Projection)
+        │
+        ▼
+Pruning Decision
+        │
+        ▼
 Master Tree Database
+        │
+        ▼
+Tree Localization
+ (Orthomosaic Projection)
+        │
+        ▼
+Duplicate Removal
+        │
+        ▼
+Global Tree Database
+        │
+        ▼
+Voronoi Graph Generation
+        │
+        ▼
+Navigation Graph Construction
+        │
+        ▼
+Elkai TSP Optimization
+        │
+        ▼
+Optimized Orchard Traversal
+        │
+        ▼
+Results Export
+    • Excel Reports
+    • Segmentation Outputs
+    • IWCP Visualizations
+    • Localization Maps
+    • Voronoi Diagram
+    • Optimized Pruning Route
 """
 
 import os
