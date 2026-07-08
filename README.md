@@ -19,3 +19,10 @@ highlighting the potential of PruneNet as a practical decision support pipeline 
 
 # Setup
 
+PruneNet has been developed and tested on Ubuntu 22.04 LTS using Python 3.12. We recommend using a dedicated Conda environment for dependency isolation.
+
+Clone Repository
+
+git clone https://github.com/NLNSaiPranav/PruneNet.git
+
+cd PruneNet
