@@ -134,3 +134,8 @@ outputs/
 
 ---
 
+If you have any questions regarding the paper, codebase, dataset, or would like to collaborate, please feel free to reach out at.
+
+**Nidugondi L. N. Sai Pranav**  
+📧 Email: `nidugondi.pranav@plaksha.edu.in`
+
