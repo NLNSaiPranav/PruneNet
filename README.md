@@ -1,4 +1,4 @@
-# PruneNet
+# PruneNet [[Playground]](https://prunenetdemo-bbwzgu5f93k2ayszlswfbh.streamlit.app/)**
 
 An end-to-end UAV-based mango tree pruning decision support system using deep learning, canopy analysis, geospatial localization, and autonomous path planning.
 
@@ -13,7 +13,7 @@ highlighting the potential of PruneNet as a practical decision support pipeline 
 
 ![Pipeline](Images/3D.png)
 
-## 🎥 Video Demonstration
+## Video Demonstration
 
 [![Watch the Demo](Images/youtube.png)](https://youtu.be/c6rzDiAI3Ic)
 
