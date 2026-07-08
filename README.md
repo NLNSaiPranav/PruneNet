@@ -19,10 +19,118 @@ highlighting the potential of PruneNet as a practical decision support pipeline 
 
 # Setup
 
-PruneNet has been developed and tested on Ubuntu 22.04 LTS using Python 3.12. We recommend using a dedicated Conda environment for dependency isolation.
+PruneNet has been developed and tested on **Ubuntu 22.04 LTS** using **Python 3.12**. We recommend using a dedicated Conda environment for dependency isolation.
 
-Clone Repository
+---
 
+## Clone Repository
+
+```bash
 git clone https://github.com/NLNSaiPranav/PruneNet.git
+```
 
+---
+
+## Create Conda Environment
+
+```bash
+conda create -n prunenet python=3.12 -y
+
+conda activate prunenet
+```
+
+---
+
+## Install Dependencies
+
+```bash
 cd PruneNet
+
+pip install -r requirements.txt
+```
+
+---
+
+## Download Model Weights
+
+Download the trained **Mask R-CNN** weights and place them in the following directory.
+
+```text
+PruneNet/
+└── models/
+    └── maskrcnn/
+        └── mango_maskrcnn.pth
+```
+
+> **Note:** The trained model weights will be released after publication of the paper.
+
+---
+
+## Prepare Dataset
+
+Organize the dataset using the following directory structure.
+
+```text
+PruneNet/
+└── data/
+    └── input/
+        ├── rgb_images/
+        │   ├── IMG_0001.JPG
+        │   ├── IMG_0002.JPG
+        │   └── ...
+        │
+        └── orthomosaic/
+            └── Orthomosaic.tif
+```
+
+A small sample dataset is included to demonstrate the complete pipeline. The full UAV dataset used in our experiments is not included due to its size. Researchers interested in obtaining the complete dataset and the orthomosaic stitched image for academic purposes are to contact the authors.
+
+---
+
+## Configure the Pipeline
+
+Before running the pipeline, update the following paths in **main.py**.
+
+```python
+MODEL = "models/maskrcnn/mango_maskrcnn.pth"
+
+IMAGE_FOLDER = "data/input/rgb_images"
+
+ORTHOMOSAIC = "data/input/orthomosaic/Orthomosaic.tif"
+
+OUTPUT_FOLDER = "outputs"
+```
+
+---
+
+## Run the Pipeline
+
+```bash
+python main.py
+```
+
+---
+
+## Generated Outputs
+
+After successful execution, the following outputs are generated automatically.
+
+```text
+outputs/
+│
+├── segmentation/
+│
+├── iwcp/
+│
+├── localization/
+│
+├── planner/
+│
+├── results.xlsx
+│
+└── planner/
+    └── elkai_route.xlsx
+```
+
+---
+
